@@ -10,7 +10,7 @@
     "headline": "Fullstack Web Developer | React & Django Enthusiast",
     "short_bio": "Mahasiswa UMS Semester 3 dengan background pengembangan web fullstack.",
     "location": "Surakarta, Jawa Tengah",
-    "portfolio_url": ""
+    "portfolio_url": "https://github.com/KuraKuraMesir"
   },
   "skills": [
     {
@@ -66,7 +66,7 @@
     }
   ],
   "statistics": {
-    "views_count": 127,
+    "views_count": 2,
     "profile_complete_percent": 60
   }
 }

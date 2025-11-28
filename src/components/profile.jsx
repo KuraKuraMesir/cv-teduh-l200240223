@@ -38,23 +38,23 @@ const Profile = ({ data, statistics }) => {
             <p className="text-2xl mb-4 drop-shadow" style={{ color: '#FFF9E6' }}>{data.headline}</p>
             
             <div className="flex flex-wrap gap-2 justify-center md:justify-start mb-6">
-              <span className="bg-white bg-opacity-25 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold border border-white border-opacity-30 hover:bg-opacity-35 transition-all">
+              <span className="bg-yellow bg-opacity-25 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold border border-white border-opacity-30 hover:bg-opacity-35 transition-all">
                 📚 {data.nim}
               </span>
-              <span className="bg-white bg-opacity-25 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold border border-white border-opacity-30 hover:bg-opacity-35 transition-all">
+              <span className="bg-yellow bg-opacity-25 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold border border-white border-opacity-30 hover:bg-opacity-35 transition-all">
                 💻 {data.prodi}
               </span>
-              <span className="bg-white bg-opacity-25 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold border border-white border-opacity-30 hover:bg-opacity-35 transition-all">
+              <span className="bg-yellow bg-opacity-25 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold border border-white border-opacity-30 hover:bg-opacity-35 transition-all">
                 🎓 Angkatan {data.angkatan}
               </span>
             </div>
             
             <div className="flex flex-wrap gap-6 justify-center md:justify-start text-sm mb-6">
-              <div className="flex items-center gap-2 bg-white bg-opacity-20 backdrop-blur-sm px-4 py-2 rounded-lg hover:bg-opacity-30 transition-all">
+              <div className="flex items-center gap-2 bg-yellow bg-opacity-20 backdrop-blur-sm px-4 py-2 rounded-lg hover:bg-opacity-30 transition-all">
                 <span className="text-lg">📍</span>
                 <span className="font-medium">{data.location}</span>
               </div>
-              <div className="flex items-center gap-2 bg-white bg-opacity-20 backdrop-blur-sm px-4 py-2 rounded-lg hover:bg-opacity-30 transition-all">
+              <div className="flex items-center gap-2 bg-yellow bg-opacity-20 backdrop-blur-sm px-4 py-2 rounded-lg hover:bg-opacity-30 transition-all">
                 <span className="text-lg">👁️</span>
                 <span className="font-medium">{statistics.views_count} views</span>
               </div>
@@ -70,7 +70,7 @@ const Profile = ({ data, statistics }) => {
               style={{ color: '#FC210D' }}
             >
               <span>🔗</span>
-              Visit Portfolio
+              Visit My GitHub
             </a>
           </div>
         </div>

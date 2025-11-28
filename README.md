@@ -1,86 +1,16 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/aGybBHCg)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=21804358&assignment_repo_type=AssignmentRepo)
-# 📄 TUGAS 1 – Single Page Application (SPA) menggunakan ReactJS untuk menampilkan CV Mahasiswa
+# React + Vite
 
-**Mata Kuliah**: Pemrograman Web Berbasis Framework
-**Jenis Tugas**: Individu
-**Deadline**: Jumat, 28 November 2025 – 23.59 WIB
-**Deployment**: Vercel atau Netlify
-**Pengumpulan**: GitHub Classroom
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🧩 Deskripsi Tugas
+Currently, two official plugins are available:
 
-Tugas ini adalah membuat Single Page Application (SPA) menggunakan ReactJS untuk menampilkan CV Mahasiswa. Aplikasi harus memiliki 3 bagian utama:
-	1.	Profile
-	2.	Skills
-	3.	Experiences
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Contoh data mahasiswa sudah diberikan dalam format JSON. Anda WAJIB mengganti isi data tersebut dengan data diri Anda sendiri (nama, NIM, foto, skill, pengalaman, dll).
+## React Compiler
 
-Aplikasi dibuat sederhana, rapi, dan mudah digunakan.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
 
-## 📦 Ketentuan Utama
-
-1. Pembuatan Aplikasi
-   * Menggunakan ReactJS (Vite atau Create React App diperbolehkan).
-   * Aplikasi harus berupa Single Page Application.
-   * Memiliki tiga section minimal:
-     * Profile
-     * Skills
-     * Experiences
-	* Data mahasiswa disimpan di file terpisah (JS/JSON) dan di-import. Data ini harus dibaca secara otomatis, **tidak hardcode** di dalam komponen. Struktur data tersedia di file [dataMahasiswa.json](./dataMahasiswa.json)
-
-2. Komponen Minimal
-   * Profile.jsx
-   * Skills.jsx
-   * Experiences.jsx
-   * App.jsx
-
-3. Aturan Koding
-   * Struktur folder rapi dan modular.
-   * Komponen terpisah dan reusable.
-   * Gunakan styling apa saja (CSS, Tailwind, Bootstrap, dst).
-
-4. Dokumentasi
-   * WAJIB memiliki DOC.md berisi:
-     * Deskripsi aplikasi
-     * Cara menjalankan
-     * Link deployment
-     * Screenshot tampilan
-
-
-## 🚀 Deployment (WAJIB)
-
-Mahasiswa wajib melakukan deployment aplikasi ke salah satu platform berikut:
-
-Opsi 1 – Vercel
-	1.	Buka https://vercel.com
-	2.	Login dengan GitHub
-	3.	Import repository tugas
-	4.	Tunggu build selesai
-	5.	Salin URL deployment
-
-Opsi 2 – Netlify
-	1.	Buka https://netlify.com
-	2.	Login GitHub
-	3.	Add new site → Import from Git
-	4.	Pilih repo tugas
-	5.	Tunggu build selesai
-	6.	Salin URL deployment
-
-Syarat Deployment
-	•	Link deployment harus aktif & bisa diakses publik
-	•	Link wajib ditulis di Laporan DOC.md
-
-
-## 📤 Pengumpulan
-1. Pengumpulan dilakukan melalui GitHub Classroom.
-2. Pastikan commit dilakukan secara bertahap, bukan hanya 1 commit besar.
-3. Jumlah dan kualitas commit mempengaruhi nilai.
-4. **Deadline** Jumat, 28 November 2025 Jam 23.59
-
-## Contoh Implementasi
-Berikut adalah contoh implementasi tugas ini.
-
-![contoh screenshot](./example_screenshot.png)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

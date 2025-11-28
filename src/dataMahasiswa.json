@@ -1,0 +1,72 @@
+{
+  "id": 12,
+  "slug": "Teduh-Dewantara-L200240225",
+  "profile": {
+    "full_name": "Teduh Dewantara",
+    "nim": "L200240223",
+    "prodi": "Teknik Informatika",
+    "angkatan": "2024",
+    "photo_url": "https://ui-avatars.com/api/?name=Muhammad+Yafi+Faishal&size=200&background=FC210D&color=fff&bold=true",
+    "headline": "Fullstack Web Developer | React & Django Enthusiast",
+    "short_bio": "Mahasiswa UMS Semester 3 dengan background pengembangan web fullstack.",
+    "location": "Surakarta, Jawa Tengah",
+    "portfolio_url": ""
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "ReactJS",
+      "category": "technical",
+      "level": "Beginner",
+      "is_main": true,
+      "years_of_experience": 0.5,
+      "icon_url": "⚛️"
+    },
+    {
+      "id": 2,
+      "name": "Python",
+      "category": "technical",
+      "level": "intermediate",
+      "is_main": true,
+      "years_of_experience": 1,
+      "icon_url": "🐍"
+    },
+    {
+      "id": 3,
+      "name": "CSS",
+      "category": "technical",
+      "level": "intermediate",
+      "is_main": false,
+      "years_of_experience": 1,
+      "icon_url": "🎨"
+    }
+  ],
+  "experiences": [
+    {
+      "id": 101,
+      "title": "Frontend Developer",
+      "organization": "",
+      "experience_type": "project",
+      "start_date": "2024-07-01",
+      "end_date": "2024-09-30",
+      "is_current": false,
+      "description": "Mengembangkan antarmuka dashboard internal menggunakan React.",
+      "technologies": ["ReactJS", "Tailwind CSS"]
+    },
+    {
+      "id": 102,
+      "title": "Head of logistics division",
+      "organization": "UKM Bulutangkis UMS",
+      "experience_type": "organization",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "is_current": false,
+      "description": "Mengkoordinasi Logistik untuk kegiatan UKM.",
+      "technologies": ["Microsoft Office", "Canva", "Corel Draw"]
+    }
+  ],
+  "statistics": {
+    "views_count": 127,
+    "profile_complete_percent": 60
+  }
+}

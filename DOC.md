@@ -13,77 +13,82 @@ Aplikasi Single Page Application (SPA) untuk menampilkan CV/Portfolio mahasiswa 
 - **Interactive UI**: Hover effects, animations, dan smooth transitions
 - **Data-driven**: Data dibaca otomatis dari file JSON terpisah
 
-
 ## 🚀 Cara Menjalankan Project
 
 ### Prerequisites
 
 Pastikan sudah terinstall:
+
 - **Node.js**
-- **npm** 
+- **npm**
 
 ### Langkah Instalasi
 
 1. **Clone repository**
+
    ```bash
    git clone <URL-REPOSITORY  >
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Jalankan development server**
+
    ```bash
    npm run dev
    ```
 
 4. **Buka browser**
-   
+
    Aplikasi akan berjalan di: `http://localhost:517`
-
-
 
 ## 🌐 Deployment Link
 
-**Live Demo**: [https://your-app.vercel.app](https://your-app.vercel.app)
-
-
-
+**Live Demo**: (https://vercel.com/kurakuramesirs-projects/cv-teduh-l200240223)
 
 ## 📸 Screenshots
 
 ### 1. Profile Section
+
 ![Profile Section](public/SSProfile.pn)
+
 > Menampilkan informasi lengkap profil mahasiswa dengan foto, headline, dan badge informasi
 
 ### 2. Skills Section
+
 ![Skills Section](public/SSskills.png)
+
 > Menampilkan Main Skills dan Other Skills dengan progress bar dan level kemampuan
 
 ### 3. Experience Section
-![Experience Section](public/SSExperiences.png)
-> Menampilkan timeline pengalaman dengan badge type dan technologies
 
+![Experience Section](public/SSExperiences.png)
+
+> Menampilkan timeline pengalaman dengan badge type dan technologies
 
 ## 🛠️ Teknologi yang Digunakan
 
 ### Frontend
+
 - **ReactJS** v18.x - JavaScript library untuk membangun UI
 - **Tailwind CSS** v3.x - Utility-first CSS framework
 - **JavaScript ES6+** - Modern JavaScript
 
 ### Development Tools
+
 - **Create React App** - React toolchain
 - **npm** - Package manager
 - **Git** - Version control
 
 ### Deployment
+
 - **Vercel** / **Netlify** - Static site hosting
 
 ---
-
 
 ## 👨‍💻 Dibuat oleh
 
@@ -94,4 +99,3 @@ Pastikan sudah terinstall:
 **Universitas**: Universitas Muhammadiyah Surakarta
 
 ---
-
